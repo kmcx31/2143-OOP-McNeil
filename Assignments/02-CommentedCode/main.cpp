@@ -7,7 +7,7 @@
 // Semester: Spring 2020
 //
 // Description:
-//       describe program here thoroughly 
+//       Implements a doubley-linked list, automatically sorts and places elements into list, and prints output.
 //
 // Usage:
 //       how to use the program if necessary
@@ -19,8 +19,10 @@
 
 using namespace std;
 
-int A[100];
+//global array with size 100
+int A[100];  
 
+//struct node that holds a single number in memory to build the list
 struct Node
 {
     int x;
@@ -37,6 +39,7 @@ struct Node
     }
 };
 
+//class implementation of doubley linked list
 class List
 {
   private:
@@ -45,6 +48,7 @@ class List
     int Size;
 
   public:
+    //default constructor
     List()
     {
         Head = Tail = NULL;
@@ -55,7 +59,7 @@ class List
     {
         // allocate new memory and init node
         Node *Temp = new Node(val);
-
+        
         if (!Head && !Tail)
         {
             Head = Tail = Temp;
