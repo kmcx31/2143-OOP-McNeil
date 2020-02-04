@@ -19,7 +19,6 @@
   - Play a card
 - Make bets
   
-
 ## Game
 - Timer
 - Track bets
