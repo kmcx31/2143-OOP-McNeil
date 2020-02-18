@@ -14,4 +14,4 @@
 <img src="https://github.com/kmcx31/2143-OOP-McNeil/blob/master/Assignments/H04/PokerGame.png" width="200">
 
 ### Diagram
-<img src="https://github.com/kmcx31/2143-OOP-McNeil/blob/master/Assignments/H04/Diagram.png" width="200">
+<img src="https://github.com/kmcx31/2143-OOP-McNeil/blob/master/Assignments/H04/Diagram.png" width="300">
